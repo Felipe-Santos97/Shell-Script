@@ -30,23 +30,42 @@ Para começar a fazer os scripts seria bom se já dominasse alguns comandos do t
 
 **rm** arquivo 
 
+**mkdir** nova-pasta
+
 ### Opções 
-Os comandos tem as chamadas opções que podem ser passada para alterar o seu uso, elas são usadas com o caractere "**-**"
+Os comandos tem as chamadas opções que podem ser passada para alterar o seu uso, elas são usadas com o caractere "**-**".
+Cada comando tem suas próprias chaves basta ler o manual do comando para saber, mas existe algumas que são populares como:
+**-h** para ver a tela de ajuda, **-V** ver a versão, **-R** recursivisade ou seja varre diretórios, etc.
 
-* cat **-n** arquivo 
+#### Exemplos:
 
-A chave (-n) serve para numerar as linhas do arquivo
 
-* rm **-i** arquivo
+comando     | dscrição 
+----------- | -------
+cat **-n**  | numera as linhas
+rm **-i**   | pede confirmação
+rm **-rf**  | exclui diretórios
+ls **-a**   | lista arquivos ocultos
 
-a chave -i no comando rm serve para pedir confirmação para poder excluir
 
-* rm **-rf** diretótio
-
-a chave **-rf** serve para excuir diretórios recursivamente
 
 
 ## Comandos avançados
+
+
+Comando | descrição 
+-------- | ----------
+sed  | editor linha de comando
+cut  | filtra os campos
+tr   | faz trocas de caracteres
+grep | filtra por palavras
+bc   | calculadora do bash
+seq  | gera uma sequencia de numeros
+test | testa varias condições
+sort | ordena caracteres/numeros
+echo | exibe algo na tela
+sleep | deixa em espera
+
 
 
 

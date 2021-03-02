@@ -15,7 +15,7 @@ Para começar a fazer os scripts seria bom se já dominasse alguns comandos do t
 ### alguns comandos basicos:
 
 * cd (change directory) - muda o diretorio
-* cd ..    - volta um diretório
+* cd ..(cd 2 pontos)   - volta um diretório
 * ls (list) - lista o conteudo do diretório corrente 
 * pwd (print working directory) - mostra o diretório corrente
 * cat (concatenate) - exibe um arquivo
@@ -24,7 +24,7 @@ Para começar a fazer os scripts seria bom se já dominasse alguns comandos do t
 * cp (copy) - copia arquivos
 
 ### exemplos:
-**cd** caminho-do-arquivo
+**cd** caminho-do-diretório
 
 **cat** arquivo 
 
@@ -40,7 +40,7 @@ Cada comando tem suas próprias chaves basta ler o manual do comando para saber,
 #### Exemplos:
 
 
-comando     | dscrição 
+Comando     | Descrição 
 ----------- | -------
 cat **-n**  | numera as linhas
 rm **-i**   | pede confirmação
@@ -53,7 +53,7 @@ ls **-a**   | lista arquivos ocultos
 ## Comandos avançados
 
 
-Comando | descrição 
+Comando | Descrição 
 -------- | ----------
 sed  | editor linha de comando
 cut  | filtra os campos
@@ -82,20 +82,21 @@ Bom tem alguns pasos para criar um programa em shell são eles:
 ## Primeiro programa
 Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
 
-1. Criar o arquivo comando: ( > olaMundo.sh ) 
+1. Criar o arquivo, comando: ( > olaMundo.sh ) 
  
-2. chmod 754 olaMundo.sh 
+2. Dar a permissão, comando (chmod 754 olaMundo.sh) 
  
 3. escolher um editor de texto para abrir o arquivo
 
 4. digitar:
 
-
+```
 #!/bin/bash
 
 echo "Olá, mundo"
 
-5. executar o arquivo
+```
+5. executar o arquivo (estar no mesmo diretório do arquivo)
 
 ./olaMundo.sh
 

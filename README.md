@@ -6,7 +6,7 @@ Shell é o prompt de linha de comando padrão do Unix/Linux, resulmindo é uma t
 
 É a ligação do usuario com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell e com o tempo você acostuma a usa-lo e um dia não vai querer parar de usar.
 
-O shell padrão do Linux é o bash (é o que será utilizado aqui), no Mac tambem possui basta abrir o "terminal" caso voçê use um Windows baixe o "cygwin" ele traz um ambiente Linux dentro de seu Windows
+O shell padrão do Linux é o bash (é o que será utilizado aqui), no Mac tambem possui basta abrir o "terminal" caso voçê use um Windows baixe o "cygwin" ele traz um ambiente Linux dentro de seu Windows.(mas não tenho certeza se vai fuincionar todos os comandos visto aqui)
 
 
 ## Requisitos para fazer scripts
@@ -76,15 +76,15 @@ Bom tem alguns pasos para criar um programa em shell são eles:
 
 1. Criar um arquivo com a extensão ".sh", ex: teste.sh
 2. Dar a permissão de escrita e execução: comando (chmod 754 nome-do-arquivo) com isso voçê vai poder escrever e executar o arquivo
-3. Colocar na primeira linha do arquivo o terminal que vai ser usado no caso é o bash, então: (#!/bin/bash) na primeira linha
-4. Para executar o programa basta colocar (./) se estiver na pasta do arquivo (**./teste.sh**) ou o caminho completo até chegar no arquivo (**/home/felipe/teste.sh**)
+3. Colocar na primeira linha do arquivo o terminal que vai ser usado no caso é o bash, então: (**#!/bin/bash**) na primeira linha
+4. Para executar o programa basta colocar (**./**) se estiver na pasta do arquivo (**./teste.sh**) ou o caminho completo até chegar no arquivo (**/home/felipe/teste.sh**)
 
 ## Primeiro programa
 Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
 
-1. Criar o arquivo, comando: ( > olaMundo.sh ) 
+1. Criar o arquivo, comando: ( ***> olaMundo.sh ***) 
  
-2. Dar a permissão, comando (chmod 754 olaMundo.sh) 
+2. Dar a permissão, comando (***chmod 754 olaMundo.sh***) 
  
 3. escolher um editor de texto para abrir o arquivo
 
@@ -96,12 +96,19 @@ Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
 echo "Olá, mundo"
 
 ```
-5. executar o arquivo (estar no mesmo diretório do arquivo)
+5. executar o arquivo, digitar na linha de comando (estar no mesmo diretório do arquivo)
 
-./olaMundo.sh
+
+`./olaMundo.sh`
 
 ### Eai, simples?
 Esse foi o primeiro programa em shell, lembre-se de coloar na primeira linha (#!/bin/bash)
+
+## Comentários 
+Para comentar em shell script basta colocar o caractere # e tudo que vier depois não será interpretado. __# Isto é um comentario__.
+
+
+É aconselhável colocar nos programas um cabeçalho inicial com uma explicação geral do seu funcionamento e alguns exemplos de uso, tambem comentar certas linhas para deixar claro oque está acontecendo.Mas cuidado nao vai comentar o óbvio, comentar demais pode ser que não seja uma boa.  
 
 
 

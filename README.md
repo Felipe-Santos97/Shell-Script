@@ -82,7 +82,7 @@ Bom tem alguns pasos para criar um programa em shell são eles:
 ## Primeiro programa
 Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
 
-1. Criar o arquivo, comando: ( ***> olaMundo.sh ***) 
+1. Criar o arquivo, comando: ( __> olaMundo.sh__)
  
 2. Dar a permissão, comando (***chmod 754 olaMundo.sh***) 
  

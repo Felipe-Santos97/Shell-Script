@@ -6,7 +6,7 @@ Shell é o prompt de linha de comando padrão do Unix/Linux, resulmindo é uma t
 
 É a ligação do usuario com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
 
-O shell padrão do Linux é o bash (é o que será utilizado aqui), no Mac tambem possui basta abrir o "terminal" caso voçê use um Windows baixe o "cygwin" ele traz um ambiente Linux dentro de seu Windows(mas não tenho certeza se vai fuincionar todos os comandos visto aqui)
+O shell padrão do Linux é o bash (Bourne again shell), no Mac tambem possui basta abrir o "terminal" caso voçê use um Windows baixe o "cygwin" ele traz um ambiente Linux dentro de seu Windows(mas não tenho certeza se vai fuincionar todos os comandos visto aqui)
 
 
 ## Requisitos para fazer scripts
@@ -111,4 +111,4 @@ Para comentar em shell script basta colocar o caractere # e tudo que vier depois
 É aconselhável colocar nos programas um cabeçalho inicial com uma explicação geral do seu funcionamento e alguns exemplos de uso, tambem comentar certas linhas para deixar claro oque está acontecendo.Mas cuidado nao vai comentar o óbvio, comentar demais pode ser que não seja uma boa.  
 
 
-Isso foi uma pequena introdução ao bash
+**Isso foi uma pequena introdução ao bash**

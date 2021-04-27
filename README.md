@@ -67,9 +67,9 @@ echo | exibe algo na tela
 sleep | deixa em espera
 
 ## Programar em shell
-Administradores de sistemas precisam fazer scripts para realizar tarefas em um servidor, usuarios fazem scripts para criar pequenas ferramentas de auxílio,
+Administradores de sistemas precisam fazer scripts para realizar tarefas em um servidor, usuários fazem scripts para criar pequenas ferramentas de auxílio,
 existem muitas vantagens para se aprender shell script alem de ser fácil e tranquilo, com poucas linas é posssivel fazer muita coisa.
-Não é preciso se preocupar com os tipos de variaveis, ponteiros, compilação, acesso ao hardware, etc. 
+Não é preciso se preocupar com os tipos de variáveis, ponteiros, compilação, acesso ao hardware, etc. 
 
 ## Como fazer um programa em shell
 Bom tem alguns pasos para criar um programa em shell são eles:

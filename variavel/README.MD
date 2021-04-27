@@ -1,8 +1,10 @@
-## No shell não precisa especificar o tipo da variável, utilizar "aspas" para string
+# Variáveis no shell 
 
+### No shell não precisa especificar o tipo da variável, utilizar "aspas" para string
+```
 NOME="jose"
 IDADE=50
- 
+ ```
 
 ## Algumas regras sobre o uso de variaveis:
 
@@ -23,11 +25,12 @@ O comando **echo** serve para exibir na tela
 É utilizado o comando **read** para ler dados e assim possivel atribuir a variáveis
 ```
 echo "Digite seu nome: "
-read NOME ```
+read NOME 
+```
 
 Com isso é guardado na variavel NOME
 
  
-## Uma forma mais simples que não precisa do **echo**:
+### Uma forma mais simples que não precisa do **echo**:
 
 `read -p "Digite seu nome: " NOME `

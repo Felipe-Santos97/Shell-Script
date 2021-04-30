@@ -12,7 +12,7 @@ O shell padrão do Linux é o bash (Bourne again shell), no Mac tambem possui ba
 ## Requisitos para fazer scripts
 Para começar a fazer os scripts seria bom se já dominasse alguns comandos do terminal, o foco é fazer scripts mas irei mostrar alguns, começe estudando esses comandos:
 
-### alguns comandos basicos:
+### alguns comandos básicos:
 
 * cd (change directory) - muda o diretorio
 * cd ..(cd 2 pontos)   - volta um diretório
@@ -86,9 +86,7 @@ Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
  
 2. Dar a permissão, comando (***chmod +x olaMundo.sh***) 
  
-3. escolher um editor de texto para abrir o arquivo
-
-4. digitar:
+3. escolher um editor de texto para abrir o arquivo e digitar:
 
 ```
 #!/bin/bash
@@ -96,7 +94,7 @@ Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
 echo "Olá, mundo"
 
 ```
-5. executar o arquivo, digitar na linha de comando (estar no mesmo diretório do arquivo)
+4. executar o arquivo, digitar na linha de comando (estar no mesmo diretório do arquivo)
 
 
 `./olaMundo.sh`

@@ -4,7 +4,7 @@
 um comando.
 Se a saida do comando for verdadeira ele executa o bloco, mas como usar então?
 
-Para usar o if como em outras linguagens de programação é preciso usar o comando **test**,
+Para usar o **if** como em outras linguagens de programação é preciso usar o comando **test**,
 com ele é possivel comparar strings, veriricar se a string é nula, comparar numeros com outros numeros, etc.
 
 opções do comando **test**:
@@ -37,11 +37,59 @@ Opção | Descrição
 
 Como foi visto o comando **test** "testa" mais condições que as outras linguagens, podendo testar até arquivos e diretórios.
 
-## Usando o test com o if
-Existem 2 maneiras de usar:
+## Sintaxe do if
 
-**if test VALOR EXPRESSÃO**, ou usar colchetes para substituir a paravra test
+if COMANDO              
+then
+  comandos
+else
+ comandos
 
-**if [VALOR EXPRESSAO]**
+fi
+
+###Condicionais aninhados
+Basta usar **elif**
+
+if COMANDOS
+then
+  comandos
+
+elif COMANDOS
+ comando
+
+else
+ comandos
+fi
+  
+### Usar if com test
+
+Vamos testar se uma variavel é maior que 10
+Existem 2 maneiras de escrever, vamos ver a primeira
+
+```
+if test "$variavel" -gt 10; then
+  echo "$variavel é maior que 10"
+else
+  echo "$variavel é menor que 10"
+fi
+
+```
+Perceba o uso do **then** na mesma linha do if, basta usar ponto e virgula, é uma outra maneira de fazer.
+A chave **-gt** (Greater thean) para ver se o numero é maior.
+
+
+segunda maneira:
+```
+if [ "$variavel" -gt 10 ]; then
+  echo "$variavel é maior que 10"
+else
+  echo "$variavel é menor que 10"
+fi
+```
+Foi usado [] para substituir o uso da palavra **test**, repare os espaços entre os colchetes sem eles da erro.
+
+
+
+
 
 

@@ -4,12 +4,13 @@
 
 
 # Pega os dados do usuário
-read -p "Digite seu nome: " nome
+read -p "Digite seu email: " email
 
 # Testa se foi digitado alguma coisa
-[ "$nome" ] || exit 1
+[ "$email" ] || exit 1
 
 # Pega a hora atual
 hora=$(date "+%H:%M")
 
-echo "$nome entrou no sistema as $hora horas."
+echo "logado as $hora horas."
+

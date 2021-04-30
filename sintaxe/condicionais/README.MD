@@ -38,18 +38,18 @@ Opção | Descrição
 Como foi visto o comando **test** "testa" mais condições que as outras linguagens, podendo testar até arquivos e diretórios.
 
 ## Sintaxe do if
-
+```
 if COMANDO              
 then
   comandos
 else
  comandos
-
 fi
+```
 
-###Condicionais aninhados
+### Condicionais aninhados
 Basta usar **elif**
-
+```
 if COMANDOS
 then
   comandos
@@ -60,11 +60,11 @@ elif COMANDOS
 else
  comandos
 fi
-  
+```  
 ### Usar if com test
 
-Vamos testar se uma variavel é maior que 10
-Existem 2 maneiras de escrever, vamos ver a primeira
+Vamos testar se uma variavel é maior que 10,
+existem 2 maneiras de escrever vamos ver a primeira
 
 ```
 if test "$variavel" -gt 10; then
@@ -86,7 +86,7 @@ else
   echo "$variavel é menor que 10"
 fi
 ```
-Foi usado [] para substituir o uso da palavra **test**, repare os espaços entre os colchetes sem eles da erro.
+Foi usado colchetes para substituir o uso da palavra **test**, repare os espaços entre os colchetes sem eles da erro.
 
 
 

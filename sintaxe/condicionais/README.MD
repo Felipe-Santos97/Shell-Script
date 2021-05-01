@@ -1,10 +1,12 @@
 ## Estruturas condicionais em shell
 
- O uso do **if** é diferente em shell, ele não testa uma condição mas sim 
-um comando.
-Se a saida do comando for verdadeira ele executa o bloco, mas como usar então?
+O uso do **if** é diferente em shell, ele não testa uma condição mas sim um comando.
+Se a saida do comando for verdadeira ele executa o bloco, mas como saber ?
 
-Para usar o **if** como em outras linguagens de programação é preciso usar o comando **test**,
+Vai ser verdadeira quando a saída do comando for igual a zero que significa sem erros, caso seja diferente de zero, o **if** não irá executar o bloco de código.
+ 
+
+Para usar o **if** como em outras linguagens de programação é preciso usar o comando **test**
 com ele é possivel comparar strings, veriricar se a string é nula, comparar numeros com outros numeros, etc.
 
 opções do comando **test**:
@@ -64,7 +66,7 @@ fi
 ### Usar if com test
 
 Vamos testar se uma variavel é maior que 10,
-existem 2 maneiras de escrever.
+existem 2 maneiras de escrever, são elas:
 
 **primeira maneira**
 ```
@@ -75,7 +77,7 @@ else
 fi
 
 ```
-Perceba o uso do **then** na mesma linha do if, basta usar ponto e virgula, é uma outra maneira de fazer.
+Perceba o uso do **then** na mesma linha do if basta usar ponto e virgula, é uma outra maneira de fazer.
 A chave **-gt** (Greater thean) para ver se o numero é maior.
 
 
@@ -99,7 +101,7 @@ sintaxe:
 
 `[ "$variavel" -lt 10 ] || echo "Maior que 10"`
  
-Foi usado somente os colchetes (lembre de colocar os espaços), em seguida os operadores **&&** para **and** e **||** para **or**.
+Foi usado somente os colchetes (lembre de colocar os espaços) em seguida os operadores **&&** para **and** e **||** para **or**.
 
 operadores | descrição
 -----------| ----------------------------------------
@@ -122,3 +124,14 @@ fi
 ```
 Eai, gostou da forma resumida?
 Faça seus proprios testes, com o tempo você vai dominar o uso do **if**
+
+
+## conclusão:
+
+
+* O if é utilizado com o comando **test** para ser usado igual nas outras linguagens de programação mas ele pode ser usado para testar a saída de um comando do bash
+* Sempre coloque os espaços entre as estruturas como entre os colchetes
+* Há 2 maneiras de usar o if com o test, uma com a palavra reservada **test**, outra com os colchetes
+* Use a forma resulmida quando tiver apenas 1 comando para ser executado
+* Faça diversos testes para poder entender melhor o seu uso, há um exemplo neste capítulo
+

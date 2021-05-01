@@ -21,10 +21,10 @@ Opção | Descrição
 ### testes em Strings
 Opção | Descrição
 ------|---------
-=     | string é igual
-!=    | strig é diferente
--n    | string não é nula
--z    | string é nula
+=     | string é igual?
+!=    | strig é diferente?
+-n    | string não é nula?
+-z    | string é nula?
 
 ### testes em arquivos
 Opção | Descrição
@@ -64,8 +64,9 @@ fi
 ### Usar if com test
 
 Vamos testar se uma variavel é maior que 10,
-existem 2 maneiras de escrever vamos ver a primeira
+existem 2 maneiras de escrever.
 
+**primeira maneira**
 ```
 if test "$variavel" -gt 10; then
   echo "$variavel é maior que 10"
@@ -78,7 +79,7 @@ Perceba o uso do **then** na mesma linha do if, basta usar ponto e virgula, é u
 A chave **-gt** (Greater thean) para ver se o numero é maior.
 
 
-segunda maneira:
+***segunda maneira:***
 ```
 if [ "$variavel" -gt 10 ]; then
   echo "$variavel é maior que 10"
@@ -89,7 +90,35 @@ fi
 Foi usado colchetes para substituir o uso da palavra **test**, repare os espaços entre os colchetes sem eles da erro.
 
 
+## Testes simples
+Há uma outra maneira de testar que pode ser um pouco mais avançada, é usado os operadores **and** ou **or**.
+Usar quando tiver que realizar somente um comando, assim deixa a sintaxe mais simples e reduz o uso do if.
+sintaxe:
 
+`[ "$variavel" -lt 10 ] && echo "Menor que 10"`
 
+`[ "$variavel" -lt 10 ] || echo "Maior que 10"`
+ 
+Foi usado somente os colchetes (lembre de colocar os espaços), em seguida os operadores **&&** para **and** e **||** para **or**.
 
+operadores | descrição
+-----------| ----------------------------------------
+and  | caso teste for true ele executa o segundo
+or   | caso teste for true ele não executa o segundo
 
+### Testar variável vazia 
+Uma maneira simples de verificar se uma variável tem valor, podendo realizar o teste e tomar uma ação caso a variável não tenha valor.
+
+```[ "$variavel" ] || exit 1 ```
+
+Caso a variável não tenha valor será executado o comando **exit 1** que sai do programa, basicamente ele diz "Variavel ou tem valor ou eu fecho o programa".
+
+Vamos ver como seria o mesmo comando mas usando o **if**
+```
+if [ -z "$variavel" ]
+then
+  exit 1
+fi
+```
+Eai, gostou da forma resumida?
+Faça seus proprios testes, com o tempo você vai dominar o uso do **if**

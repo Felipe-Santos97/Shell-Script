@@ -48,4 +48,28 @@ diretorioAtual=$(pwd)
 ```
 **ls /** lista os diretórios na raiz e **pwd** exibe o diretório atual 
 
-* Há um exemplo de um programa com tudo que foi visto
+## Expansão de variáveis
+
+É um recurso do shell que permite manipular variáveis, bastante util que pode economizar linhas.
+Há diversos recursos veremos somente alguns
+
+sintaxe:
+`${variavel}`
+
+  sintaxe    | descrição
+-------------|---------
+${#variavel} | retorna o tamanho da string
+${variavel:-texto} | caso a variável não tenha valor texto será **retornado**
+${variavel:=texto} | caso a variável não tenha valor texto será **definido**
+${variavel:5}      | retorna o texto apartit do quinto caractere
+${variavel/hello/ola} | substitui helo por ola apenas 1 vez
+${variavel//hello/ola} | substitui helo por ola sempre
+
+
+
+
+
+
+
+
+

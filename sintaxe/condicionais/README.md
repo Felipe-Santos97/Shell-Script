@@ -66,7 +66,7 @@ fi
 ### Usar if com test
 
 Vamos testar se uma variavel é maior que 10,
-existem 2 maneiras de escrever, são elas:
+existem 2 maneiras de escrever são elas:
 
 **primeira maneira**
 ```
@@ -133,5 +133,5 @@ Faça seus proprios testes, com o tempo você vai dominar o uso do **if**
 * Sempre coloque os espaços entre as estruturas como entre os colchetes
 * Há 2 maneiras de usar o if com o test, uma com a palavra reservada **test**, outra com os colchetes
 * Use a forma resulmida quando tiver apenas 1 comando para ser executado
-* Faça diversos testes para poder entender melhor o seu uso, há um exemplo neste capítulo
+* Faça diversos testes para poder entender melhor o seu uso, há exemplos neste capítulo
 

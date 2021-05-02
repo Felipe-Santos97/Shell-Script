@@ -52,11 +52,11 @@ fi
 ### Condicionais aninhados
 Basta usar **elif**
 ```
-if COMANDOS
+if COMANDO
 then
   comandos
 
-elif COMANDOS
+elif COMANDO
  comando
 
 else

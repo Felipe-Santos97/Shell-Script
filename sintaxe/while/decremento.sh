@@ -1,7 +1,8 @@
 #!/bin/bash
 #
-# Serve de exemplo para o comando while
 # Programa pede um numero como entrada e diminui até 1
+# Serve de exemplo para o comando while.
+# Foque no comando while, alguns comandos foram feitos para tentar não quebrar o programa somente.
 
 
 read -p "Digite um numero: " numero

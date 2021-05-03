@@ -3,7 +3,7 @@
 O uso do **if** é diferente em shell, ele não testa uma condição mas sim um comando.
 Se a saida do comando for verdadeira ele executa o bloco, mas como saber ?
 
-Vai ser verdadeira quando a saída do comando for igual a zero que significa sem erros, caso seja diferente de zero, o **if** não irá executar o bloco de código.
+Vai ser verdadeira quando a saída do comando for igual a zero que significa sem erros, caso seja diferente de zero o **if** não irá executar o bloco de código.
  
 
 Para usar o **if** como em outras linguagens de programação é preciso usar o comando **test**
@@ -24,7 +24,7 @@ Opção | Descrição
 Opção | Descrição
 ------|---------
 =     | string é igual?
-!=    | strig é diferente?
+!=    | string é diferente?
 -n    | string não é nula?
 -z    | string é nula?
 
@@ -37,7 +37,7 @@ Opção | Descrição
 -w    | tem permissão de escrita?
 -s    | arquivo tem conteudo?
 
-Como foi visto o comando **test** "testa" mais condições que as outras linguagens, podendo testar até arquivos e diretórios.
+Como foi visto o comando **test** "testa" mais condições que as outras linguagens podendo testar até arquivos e diretórios.
 
 ## Sintaxe do if
 ```

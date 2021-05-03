@@ -1,7 +1,7 @@
 ## loop while
 
 O comando **while** permite realizar um loop enquanto determinada condição ocorrer. Pode ser usado com o comando **test** para poder realizar as condições
-(detalhes do comando test no diretório condicionais), sua sintaxe é:
+(detalhes do comando test no diretório condicionais). Sua sintaxe é:
 
 ```
 while [ condição ] 
@@ -41,3 +41,17 @@ do
   i=$((i+1))
 done 
 ```
+
+## Loop infinito
+
+Caso deseje fazer sua sintaxe é:
+
+```
+while : 
+do
+  COMANDOS  
+done
+```
+
+Lembre-se de colocar alguma situação que interrompa o loop
+

@@ -1,6 +1,7 @@
 ## loop while
 
-O comando **while** permite realizar um loop enquanto determinada condição ocorrer. Pode ser usado com o comando **test** para poder realizar as condições (detalhes do comando test no diretório condicionais), sua sintaxe é:
+O comando **while** permite realizar um loop enquanto determinada condição ocorrer. Pode ser usado com o comando **test** para poder realizar as condições
+(detalhes do comando test no diretório condicionais), sua sintaxe é:
 
 ```
 while [ condição ] 
@@ -13,11 +14,11 @@ Perceba o uso do colchetes que substitui a palavra test.
 
 ## Modificar a condição
 
-Se não for modificada resultará no clássico loop infinito, vejamos como somar 1 em uma variavel
+Se não for modificada a condição resultará no clássico loop infinito, vejamos como somar 1 em uma variavel
 
 * `i=$((i+1))`
 * `let i++`
-* `variavel=$(expr variavel + 1)`
+* `i=$(expr i + 1)`
 
 O mesmo pode ser feito com decremento
 

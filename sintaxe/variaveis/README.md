@@ -58,18 +58,11 @@ sintaxe:
 
   sintaxe    | descrição
 -------------|---------
-${#variavel} | retorna o tamanho da string
-${variavel:-texto} | caso a variável não tenha valor texto será **retornado**
-${variavel:=texto} | caso a variável não tenha valor texto será **definido**
-${variavel:5}      | retorna o texto apartit do quinto caractere
-${variavel/hello/ola} | substitui hello por ola apenas 1 vez
-${variavel//hello/ola} | substitui hello por ola sempre
-
-
-
-
-
-
-
+`${#variavel}` | retorna o tamanho da string
+`${variavel:-texto}` | caso a variável não tenha valor texto será **retornado**
+`${variavel:=texto}` | caso a variável não tenha valor texto será **definido**
+`${variavel:5}`      | retorna o texto apartit do quinto caractere
+`${variavel/hello/ola}` | substitui hello por ola apenas 1 vez (/)
+`${variavel//hello/ola}` | substitui hello por ola sempre (//)
 
 

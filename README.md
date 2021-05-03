@@ -10,9 +10,9 @@ O shell padrão do Linux é o bash (Bourne again shell), no Mac tambem possui ba
 
 
 ## Requisitos para fazer scripts
-Para começar a fazer os scripts seria bom se já dominasse alguns comandos do terminal, o foco é fazer scripts mas irei mostrar alguns, começe estudando esses comandos:
+Para começar a fazer os scripts é preciso conhecer alguns dos comandos do bash, começe estudando esses comandos:
 
-### alguns comandos básicos:
+### alguns comandos básicos
 
 * cd (change directory) - muda o diretorio
 * cd ..(cd 2 pontos)   - volta um diretório
@@ -63,8 +63,9 @@ bc   | calculadora do bash
 seq  | gera uma sequencia de numeros
 test | testa varias condições
 sort | ordena caracteres/numeros
-echo | exibe algo na tela
+date | gerencia data, hora, etc
 sleep | deixa em espera
+read  | lê uma entrada fornecida
 
 ## Programar em shell
 Administradores de sistemas precisam fazer scripts para realizar tarefas em um servidor, usuários fazem scripts para criar pequenas ferramentas de auxílio,
@@ -75,7 +76,7 @@ Não é preciso se preocupar com os tipos de variáveis, ponteiros, compilação
 Bom tem alguns pasos para criar um programa em shell são eles:
 
 1. Criar um arquivo com a extensão ".sh", ex: teste.sh
-2. Dar a permissão de execução: comando (chmod +x nome-do-arquivo) com isso você vai poder executar o arquivo
+2. Dar a permissão de execução com o comando (chmod +x nome-do-arquivo) com isso você vai poder executar o arquivo
 3. Colocar na primeira linha do arquivo o terminal que vai ser usado no caso é o bash, então: (**#!/bin/bash**) na primeira linha
 4. Para executar o programa basta colocar (**./**) se estiver na pasta do arquivo (**./teste.sh**) ou o caminho completo até chegar no arquivo (**/home/felipe/teste.sh**)
 

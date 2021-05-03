@@ -22,8 +22,11 @@ echo "$lista"
 read -p "Escolha uma cor para letra: " corLetra 
 read -p "Escolha uma cor para fundo: " corFundo
 
+# Testa se é valor numerico
+[[ "$corLetra" = ?(+|-)+([0-9]) ]] || exit 1 
+[[ "$corFundo" = ?(+|-)+([0-9]) ]] || exit 1
 
 # Saida
 echo
-echo -e "\033[${corLetra:-37};${corFundo:-40}m$frase\033[m"
+echo -e "\033[$corLetra;${corFundo}m$frase\033[m"
 echo

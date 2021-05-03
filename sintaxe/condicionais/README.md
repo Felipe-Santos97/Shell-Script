@@ -78,7 +78,7 @@ fi
 
 ```
 Perceba o uso do **then** na mesma linha do if basta usar ponto e virgula, é uma outra maneira de fazer.
-A chave **-gt** (Greater thean) para ver se o numero é maior.
+A chave **-gt** (Greater than) para ver se o numero é maior.
 
 
 ***segunda maneira:***
@@ -105,8 +105,8 @@ Foi usado somente os colchetes (lembre de colocar os espaços) em seguida os ope
 
 operadores | descrição
 -----------| ----------------------------------------
-and  | caso teste for true ele executa o segundo
-or   | caso teste for true ele não executa o segundo
+and  | caso primeiro comando for true ele executa o segundo
+or   | caso primeiro for false ele executa o segundo
 
 ### Testar variável vazia 
 Uma maneira simples de verificar se uma variável tem valor, podendo realizar o teste e tomar uma ação caso a variável não tenha valor.
@@ -131,7 +131,7 @@ Faça seus proprios testes, com o tempo você vai dominar o uso do **if**
 
 * O if é utilizado com o comando **test** para ser usado igual nas outras linguagens de programação mas ele pode ser usado para testar a saída de um comando do bash
 * Sempre coloque os espaços entre as estruturas como entre os colchetes
-* Há 2 maneiras de usar o if com o test, uma com a palavra reservada **test**, outra com os colchetes
+* Há 2 maneiras de usar o **if/test**, uma com a palavra reservada test, outra com os colchetes
 * Use a forma resulmida quando tiver apenas 1 comando para ser executado
 * Faça diversos testes para poder entender melhor o seu uso, há exemplos neste capítulo
 

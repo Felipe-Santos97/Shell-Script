@@ -11,8 +11,8 @@ echo
 # Se não for numero fecha o programa 
 [[ "$numero" = ?(+|-)+([0-9]) ]] || exit 1
 
-# limite do valor é 100
-[ "$numero" -gt 100 ] && exit 1
+# limite do valor é 60
+[ "$numero" -gt 60 ] && exit 1
 
 while [ "$numero" -ge 1 ]; do
   echo -n "$numero "

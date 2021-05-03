@@ -6,7 +6,7 @@ NOME="jose"
 IDADE="50"
  ```
 
-## Algumas regras sobre o uso de variaveis:
+## Algumas regras sobre o uso de variaveis
 
  * Não pode ter espaço ao redor do igual.
  * Possui diferença entre letra maiusculas e minusculas
@@ -46,7 +46,9 @@ Ainda é possivel armazenar a saída de um comando em uma variável, sintaxe:
 raiz=$(ls /)
 usuarios=$(w)
 ```
-**ls /** lista os diretórios na raiz e **w** exibe o usuários ativos no sistema 
+**ls /** comando lista os diretórios na raiz 
+
+**w** comando exibe os usuários ativos no sistema 
 
 ## Variáveis de ambiente
 

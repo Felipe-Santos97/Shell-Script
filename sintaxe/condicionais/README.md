@@ -106,7 +106,7 @@ Foi usado somente os colchetes (lembre de colocar os espaços) em seguida os ope
 operadores | descrição
 -----------| ----------------------------------------
 and  | caso primeiro comando for true ele executa o segundo
-or   | caso primeiro for false ele executa o segundo
+or   | caso primeiro comando for false ele executa o segundo
 
 ### Testar variável vazia 
 Uma maneira simples de verificar se uma variável tem valor, podendo realizar o teste e tomar uma ação caso a variável não tenha valor.

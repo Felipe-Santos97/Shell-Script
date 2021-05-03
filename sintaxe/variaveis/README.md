@@ -44,9 +44,29 @@ Ainda é possivel armazenar a saída de um comando em uma variável, sintaxe:
 **variavel=$(comando)**
 ```
 raiz=$(ls /)
-diretorioAtual=$(pwd)
+usuarios=$(w)
 ```
-**ls /** lista os diretórios na raiz e **pwd** exibe o diretório atual 
+**ls /** lista os diretórios na raiz e **w** exibe o usuários ativos no sistema 
+
+## Variáveis de ambiente
+
+Contem informações do usuário logado, podem ser vistas com o comando **set | less**. 
+As variáveis estão disponiveis para usar nos programas em shell, são algumas delas:
+
+nome | descrição
+-----|---------
+PWD  | armazena o diretório corrente
+HOME | armazena o caminho da home do usuário
+LANG | armazena o idioma
+SHELL | armazena o terminal padrão
+USER | armazena o usuário logado
+RANDOM| gera um numero aleatório de 0 até 32767
+
+Para exibir o valor das variáveis:
+
+`echo "$USER"`
+
+`echo "$LANG"`
 
 ## Expansão de variáveis
 

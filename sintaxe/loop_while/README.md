@@ -1,4 +1,4 @@
-## loop while
+# loop while
 
 O comando **while** permite realizar um loop enquanto determinada condição ocorrer. Pode ser usado com o comando **test** para poder realizar as condições
 (detalhes do comando test no diretório condicionais). Sua sintaxe é:
@@ -22,7 +22,7 @@ Se não for modificada a condição resultará no clássico loop infinito, vejam
 
 O mesmo pode ser feito com decremento
 
-## Vamos contar até 10
+### Vamos contar até 10
 ```
 i="1"
 while [ "$i" -le 10 ]

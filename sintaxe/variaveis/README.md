@@ -1,12 +1,12 @@
 # Variáveis no shell 
 
-### No shell não precisa especificar o tipo da variável
+## No shell não precisa especificar o tipo da variável
 ```
 NOME="jose"
 IDADE="50"
  ```
 
-## Algumas regras sobre o uso de variaveis
+### Algumas regras sobre o uso de variaveis
 
  * Não pode ter espaço ao redor do igual.
  * Possui diferença entre letra maiusculas e minusculas
@@ -38,7 +38,7 @@ Com isso é guardado na variavel NOME
 
 
 
-## Comandos
+## Armazenar comandos
 Ainda é possivel armazenar a saída de um comando em uma variável, sintaxe:
 
 **variavel=$(comando)**
@@ -86,5 +86,4 @@ sintaxe:
 `${variavel:5}`      | retorna o texto apartit do quinto caractere
 `${variavel/hello/ola}` | substitui hello por ola apenas 1 vez (/)
 `${variavel//hello/ola}` | substitui hello por ola sempre (//)
-
 

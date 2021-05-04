@@ -1,4 +1,4 @@
-## Estruturas condicionais em shell
+# Estruturas condicionais em shell
 
 O uso do **if** é diferente em shell, ele não testa uma condição mas sim um comando.
 Se a saida do comando for verdadeira ele executa o bloco, mas como saber ?
@@ -63,7 +63,7 @@ else
  comandos
 fi
 ```  
-### Usar if com test
+## Usar if com test
 
 Vamos testar se uma variavel é maior que 10,
 existem 2 maneiras de escrever são elas:
@@ -81,7 +81,7 @@ Perceba o uso do **then** na mesma linha do if basta usar ponto e virgula, é um
 A chave **-gt** (Greater than) para ver se o numero é maior.
 
 
-***segunda maneira:***
+**segunda maneira**
 ```
 if [ "$variavel" -gt 10 ]; then
   echo "$variavel é maior que 10"

@@ -1,6 +1,6 @@
-## Loop for
+# Loop for
 
-É uma outra maneira de realizar repetições alem do while. O loop for é usado na maioria das linguagens e pode ser usado no shell, possui algumas sintaxes
+É uma outra maneira de realizar repetições além do while. O loop for é usado na maioria das linguagens e pode ser usado no shell, possui algumas sintaxes
 
 sintaxe básica:
 ```
@@ -12,10 +12,10 @@ done
 
 Perceba que é definido uma variável que a cada loop vai respresentar um valor da lista.
 
-Uma lista pode ser uma variável, arquivo, algum comando, sequencias de numeros, etc
+Uma lista pode ser uma variável, arquivo, algum comando, sequências de numeros, etc
 
 
-### Sequencia de valores
+## Sequência de valores
 ```
 for valor in php java python 'java script'
 do
@@ -26,7 +26,7 @@ done
 Será executado um loop para cada valor depois do **in** e então com uma variável é possivel manipular esses valores. Caso uma palavra tenha espaçamento é preciso usar aspas 
 simples como foi em 'java script'.
 
-### Sequencia numérica
+## Sequência numérica
 ```
 for valor in 1 2 3 4 5 6 7 8 9 10
 do
@@ -34,19 +34,33 @@ do
 done
 ```
 
-### Comando seq
+## Comando seq
 
-O seq pode ser usado para gerar uma sequencia de numeros
+O seq pode ser usado para gerar uma sequência de numeros
 ```
 for valor in $(seq 1 10)
 do 
   echo "$valor"
 done
 ```
+O comando seq pode não funcionar se você utiliza um Mac ou Unix, tente utilizar o comando **jot**
 
-Como visto gera uma contagem até 10, caso precise colocar um intervalo por exemplo pular de 2 em 2 usar:
+### intervalo
 
+Caso precise colocar um intervalo por exemplo pular de 2 em 2 usar:
 ` for valor in $(seq 1 2 10)`
 
-O valor 2 foi colocado entre o inicio e o fim e serve como um intervalo
+* O valor 2 foi colocado entre o inicio e o fim e serve como um intervalo
+
+
+## For clássico
+
+Caso não esteje satisfeito ainda é possivel usar o **for** como da linguagem c
+
+```
+for ((i=1; i<=10; i++))
+do
+  echo "$i"
+done
+```
 

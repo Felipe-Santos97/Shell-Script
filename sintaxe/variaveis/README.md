@@ -84,6 +84,6 @@ sintaxe:
 `${variavel:-texto}` | caso a variável não tenha valor texto será **retornado**
 `${variavel:=texto}` | caso a variável não tenha valor texto será **definido**
 `${variavel:5}`      | retorna o texto apartir do quinto caractere
-`${variavel/hello/ola}` | substitui hello por ola apenas 1 vez (/)
-`${variavel//hello/ola}` | substitui hello por ola sempre (//)
+`${variavel/hello/ola}` | substitui hello por ola apenas 1 vez "/"
+`${variavel//hello/ola}` | substitui hello por ola sempre "//"
 

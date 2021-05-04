@@ -2,26 +2,28 @@
 Repositório para passar alguns conceitos de shell 
 
 ## Oque é shell??
-Shell é o prompt de linha de comando padrão do Unix/Linux, resulmindo é uma tela preta onde são digitados comandos(famoso terminal).
+Shell é o prompt de linha de comando padrão do Unix/Linux, resulmindo é uma tela preta onde são digitados comandos (famoso terminal).
 
 É a ligação do usuario com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
 
-O shell padrão do Linux é o bash (Bourne again shell) no Mac tambem possui basta abrir o "terminal" caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux dentro de seu Windows (mas não tenho certeza se vai fuincionar todos os comandos visto aqui)
+O shell padrão do Linux é o bash (Bourne again shell) no Mac também possui basta abrir o "terminal" caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux 
+dentro de seu Windows (mas não tenho certeza se vai funcionar todos os comandos visto aqui)
 
 
 ## Requisitos para fazer scripts
 Para começar a fazer os scripts é preciso conhecer alguns dos comandos do bash, começe estudando esses comandos:
 
 ### alguns comandos básicos
-
-* cd (change directory) - muda o diretório
-* cd ..(cd 2 pontos)   - volta um diretório
-* ls (list) - lista o conteudo do diretório corrente 
-* pwd (print working directory) - mostra o diretório corrente
-* cat (concatenate) - exibe um arquivo
-* rm (remove) - excui um arquivo/diretótio
-* mkdir (make directory) - cria um diretorio
-* cp (copy) - copia arquivos
+Comando | descrição
+--------|------------
+ cd | change directory - muda o diretório
+ cd .. | cd 2 pontos - volta um diretório
+ ls | list - lista o conteudo do diretório corrente 
+ pwd | print working directory - mostra o diretório corrente
+ cat | concatenate - exibe um arquivo
+ rm | remove - excui um arquivo/diretótio
+ mkdir | make directory - cria um diretorio
+ cp | copy - copia arquivos
 
 ### exemplos:
 **cd** caminho-do-diretório
@@ -69,7 +71,7 @@ read  | lê uma entrada fornecida
 
 ## Programar em shell
 Administradores de sistemas precisam fazer scripts para realizar tarefas em um servidor, usuários fazem scripts para criar pequenas ferramentas de auxílio.
-Existem muitas vantagens para se aprender shell, com poucas linas é posssivel fazer muita coisa.
+Existem muitas vantagens para se aprender shell, com poucas linhas é posssivel fazer muita coisa.
 Não é preciso se preocupar com os tipos de variáveis, ponteiros, compilação, acesso ao hardware, etc. 
 
 ## Como fazer um programa em shell
@@ -77,7 +79,7 @@ Tem alguns passos para criar um programa em shell são eles:
 
 1. Criar um arquivo com a extensão ".sh", ex: **teste.sh**
 2. Dar a permissão de execução com o comando (chmod +x nome-do-arquivo) com isso você vai poder executar o arquivo
-3. Colocar na primeira linha do arquivo o terminal que vai ser usado no caso é o bash, então: (**#!/bin/bash**) na primeira linha
+3. Colocar na primeira linha do arquivo o terminal que vai ser usado no caso é o bash, então: **#!/bin/bash** na primeira linha
 4. Para executar o programa basta colocar (**./**) se estiver na pasta do arquivo (**./teste.sh**) ou o caminho completo até chegar no arquivo (**/home/felipe/teste.sh**)
 
 ## Primeiro programa
@@ -101,7 +103,7 @@ echo "Olá, mundo"
 `./olaMundo.sh`
 
 ### Eai, simples?
-Esse foi o primeiro programa em shell, lembre-se de coloar na primeira linha (#!/bin/bash)
+Esse foi o primeiro programa em shell, lembre-se de colocar na primeira linha **#!/bin/bash**
 
 ## Comentários 
 Para comentar em shell script basta colocar o caractere # e tudo que vier depois não será interpretado. 

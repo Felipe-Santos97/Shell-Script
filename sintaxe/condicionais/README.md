@@ -1,13 +1,13 @@
 # Estruturas condicionais em shell
 
 O uso do **if** é diferente em shell, ele não testa uma condição mas sim um comando.
-Se a saida do comando for verdadeira ele executa o bloco, mas como saber ?
+Se a saída do comando for verdadeira ele executa o bloco, mas como saber ?
 
 Vai ser verdadeira quando a saída do comando for igual a zero que significa sem erros, caso seja diferente de zero o **if** não irá executar o bloco de código.
  
 
-Para usar o **if** como em outras linguagens de programação é preciso usar o comando **test**
-com ele é possivel comparar strings, veriricar se a string é nula, comparar numeros com outros numeros, etc.
+Para usar o **if** como em outras linguagens de programação é preciso usar o comando **test**.
+Com ele é possivel comparar strings, verificar se a string é nula, comparar numeros com outros numeros, etc.
 
 opções do comando **test**:
 
@@ -20,7 +20,7 @@ Opção | Descrição
 -ge   | maior igual (Greather Equal) 
 -ne   | numero é diferente (Not Equal)
 
-### testes em Strings
+### testes em strings
 Opção | Descrição
 ------|---------
 =     | string é igual?
@@ -65,7 +65,7 @@ fi
 ```  
 ## Usar if com test
 
-Vamos testar se uma variavel é maior que 10,
+Vamos testar se uma variável é maior que 10,
 existem 2 maneiras de escrever são elas:
 
 **primeira maneira**
@@ -95,7 +95,7 @@ Foi usado colchetes para substituir o uso da palavra **test**, repare os espaço
 ## Testes simples
 Há uma outra maneira de testar que pode ser um pouco mais avançada, é usado os operadores **and** ou **or**.
 Usar quando tiver que realizar somente um comando, assim deixa a sintaxe mais simples e reduz o uso do if.
-sintaxe:
+
 
 `[ "$variavel" -lt 10 ] && echo "Menor que 10"`
 
@@ -113,7 +113,7 @@ Uma maneira simples de verificar se uma variável tem valor, podendo realizar o 
 
 ```[ "$variavel" ] || exit 1 ```
 
-Caso a variável não tenha valor será executado o comando **exit 1** que sai do programa, basicamente ele diz "Variavel ou tem valor ou eu fecho o programa".
+Caso a variável não tenha valor será executado o comando **exit 1** que sai do programa, basicamente ele diz "tem valor? se não fecho o programa".
 
 Vamos ver como seria o mesmo comando mas usando o **if**
 ```
@@ -123,7 +123,7 @@ then
 fi
 ```
 Eai, gostou da forma resumida?
-Faça seus proprios testes, com o tempo você vai dominar o uso do **if**
+Faça seus próprios testes, com o tempo você vai dominar o uso do **if**
 
 
 ## conclusão:

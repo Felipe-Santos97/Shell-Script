@@ -6,27 +6,36 @@
 frase="Programando em shell"
 
 lista="
-   COR   |  LETRA  |  FUNDO
+  COR    |  LETRA  |  FUNDO | 
 
-preto    |    30   |   40 
-vermelho |    31   |   41
-verde    |    32   |   42  
-amarelo  |    33   |   43
-azul     |    34   |   44
-rosa     |    35   |   45  
-ciano    |    36   |   46
-branco   |    37   |   47
+preto    |    30   |   40   | 
+vermelho |    31   |   41   | 
+verde    |    32   |   42   | 
+amarelo  |    33   |   43   |
+azul     |    34   |   44   |
+rosa     |    35   |   45   |
+ciano    |    36   |   46   | 
+branco   |    37   |   47   |
+-----------------------------
+    ESPECIAIS
+
+   NOME    | CÓDIGO | 
+      
+negrito    |   1   |
+pisca      |   5   |
+sublinhado |   4   | 
+----------------------------
 "
 
 echo "$lista"
-read -p "Escolha uma cor para letra: " corLetra 
-read -p "Escolha uma cor para fundo: " corFundo
+read -p "Escolha o primeiro código: " primeiro 
+read -p "Escolha o segundo código: " segundo
 
 # Testa se é valor numerico
-[[ "$corLetra" = ?(+|-)+([0-9]) ]] || exit 1 
-[[ "$corFundo" = ?(+|-)+([0-9]) ]] || exit 1
+[[ "$primeiro" = ?(+|-)+([0-9]) ]] || exit 1 
+[[ "$segundo" = ?(+|-)+([0-9]) ]] || exit 1
 
 # Saida
 echo
-echo -e "\033[$corLetra;${corFundo}m$frase\033[m"
+echo -e "\033[$primeiro;${segundo}m$frase\033[m"
 echo

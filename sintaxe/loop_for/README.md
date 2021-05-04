@@ -1,6 +1,6 @@
 # Loop for
 
-É uma outra maneira de realizar repetições além do while. O loop for é usado na maioria das linguagens e pode ser usado no shell, possui algumas sintaxes
+É uma outra maneira de realizar repetições além do while. O loop for é usado na maioria das linguagens e pode ser utilizado no shell, possui algumas sintaxes
 
 sintaxe básica:
 ```
@@ -10,8 +10,7 @@ do
 done
 ```
 
-Perceba que é definido uma variável que a cada loop vai respresentar um valor da lista.
-
+Perceba que é definido uma variável que a cada loop vai representar um valor da lista.
 Uma lista pode ser uma variável, arquivo, algum comando, sequências de numeros, etc
 
 
@@ -47,7 +46,8 @@ O comando seq pode não funcionar se você utiliza um Mac ou Unix, tente utiliza
 
 ### intervalo
 
-Caso precise colocar um intervalo por exemplo pular de 2 em 2 usar:
+Caso precise colocar um intervalo por exemplo pular de 2 em 2
+
 ` for valor in $(seq 1 2 10)`
 
 * O valor 2 foi colocado entre o inicio e o fim e serve como um intervalo
@@ -55,7 +55,7 @@ Caso precise colocar um intervalo por exemplo pular de 2 em 2 usar:
 
 ## For clássico
 
-Caso não esteje satisfeito ainda é possivel usar o **for** como da linguagem c
+Caso não esteja satisfeito ainda é possível usar o **for** como da linguagem c
 
 ```
 for ((i=1; i<=10; i++))

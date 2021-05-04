@@ -53,5 +53,5 @@ do
 done
 ```
 
-Lembre-se de colocar alguma situação que interrompa o loop
+* Lembre-se de colocar alguma situação que interrompa o loop
 

@@ -132,6 +132,6 @@ Faça seus próprios testes, com o tempo você vai dominar o uso do **if**
 * O if é utilizado com o comando **test** para ser usado igual nas outras linguagens de programação mas ele pode ser usado para testar a saída de um comando do bash
 * Sempre coloque os espaços entre as estruturas como entre os colchetes
 * Há 2 maneiras de usar o **if/test**, uma com a palavra reservada test, outra com os colchetes
-* Use a forma resulmida quando tiver apenas 1 comando para ser executado
+* Use a forma resumida quando tiver apenas 1 comando para ser executado
 * Faça diversos testes para poder entender melhor o seu uso, há exemplos neste capítulo
 

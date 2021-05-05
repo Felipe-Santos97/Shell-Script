@@ -2,11 +2,11 @@
 Repositório para passar alguns conceitos de shell 
 
 ## Oque é shell??
-Shell é o prompt de linha de comando padrão do Unix/Linux, resulmindo é uma tela preta onde são digitados comandos (famoso terminal).
+Shell é o prompt de linha de comando padrão do Unix/Linux, resumindo é uma tela preta onde são digitados comandos (famoso terminal).
 
-É a ligação do usuario com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
+É a ligação do usuário com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
 
-O shell padrão do Linux é o bash (Bourne again shell) no Mac também possui basta abrir o "terminal" caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux 
+O shell padrão do Linux é o bash (Bourne again shell) no Mac também possui basta abrir o "terminal". Caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux 
 dentro de seu Windows (mas não tenho certeza se vai funcionar todos os comandos visto aqui)
 
 
@@ -14,15 +14,15 @@ dentro de seu Windows (mas não tenho certeza se vai funcionar todos os comandos
 Para começar a fazer os scripts é preciso conhecer alguns dos comandos do bash, começe estudando esses comandos:
 
 ### alguns comandos básicos
-Comando | descrição
+Comando | Descrição
 --------|------------
  cd | change directory - muda o diretório
  cd .. | cd 2 pontos - volta um diretório
- ls | list - lista o conteudo do diretório corrente 
+ ls | list - lista o conteúdo do diretório corrente 
  pwd | print working directory - mostra o diretório corrente
  cat | concatenate - exibe um arquivo
  rm | remove - excui um arquivo/diretótio
- mkdir | make directory - cria um diretorio
+ mkdir | make directory - cria um diretório
  cp | copy - copia arquivos
 
 ### exemplos:
@@ -62,8 +62,8 @@ cut  | filtra os campos
 tr   | faz trocas de caracteres
 grep | filtra por palavras
 bc   | calculadora do bash
-seq  | gera uma sequencia de numeros
-test | testa varias condições
+seq  | gera uma sequência de numeros
+test | testa várias condições
 sort | ordena caracteres/numeros
 date | gerencia data, hora, etc
 sleep | deixa em espera
@@ -89,7 +89,7 @@ Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
  
 2. Dar a permissão de execução, comando: **chmod +x olaMundo.sh** 
  
-3. escolher um editor de texto para abrir o arquivo e digitar:
+3. Escolher um editor de texto para abrir o arquivo e digitar:
 
 ```
 #!/bin/bash
@@ -97,7 +97,7 @@ Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
 echo "Olá, mundo"
 
 ```
-4. executar o arquivo, digitar na linha de comando (estar no mesmo diretório do arquivo)
+4. Executar o arquivo, digitar na linha de comando (estar no mesmo diretório do arquivo)
 
 
 `./olaMundo.sh`
@@ -107,10 +107,11 @@ Esse foi o primeiro programa em shell, lembre-se de colocar na primeira linha **
 
 ## Comentários 
 Para comentar em shell script basta colocar o caractere # e tudo que vier depois não será interpretado. 
+
 **# Isto é um comentario**
 
 É aconselhável colocar nos programas um cabeçalho inicial com uma explicação geral do seu funcionamento e alguns exemplos de uso,
-tambem comentar certas linhas para deixar claro oque está acontecendo. Mas cuidado para não comentar o óbvio, comentar demais pode ser que não seja uma boa.  
+também comentar certas linhas para deixar claro oque está acontecendo. Mas cuidado para não comentar o óbvio, comentar demais pode ser que não seja uma boa.  
 
 
 ## Isso foi uma pequena introdução ao bash

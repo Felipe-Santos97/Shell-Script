@@ -28,14 +28,12 @@ sublinhado |   4   |
 "
 
 echo "$lista"
-read -p "Escolha o primeiro código: " primeiro 
-read -p "Escolha o segundo código: " segundo
+read -p "Escolha o primeiro numero: " primeiro 
+read -p "Escolha o segundo numero: " segundo
 
 # Testa se é valor numerico
 [[ "$primeiro" = ?(+|-)+([0-9]) ]] || exit 1 
 [[ "$segundo" = ?(+|-)+([0-9]) ]] || exit 1
 
 # Saida
-echo
-echo -e "\033[$primeiro;${segundo}m$frase\033[m"
-echo
+echo -e "\n\033[$primeiro;${segundo}m$frase\033[m\n"

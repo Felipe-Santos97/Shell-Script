@@ -9,7 +9,7 @@ IDADE="50"
 ### Algumas regras sobre o uso de variáveis
 
  * Não pode ter espaço ao redor do igual.
- * Possui diferença entre letra maiusculas e minusculas
+ * Possui diferença entre letra maiúsculas e minúsculas
  * Boa prática sempre utilizar aspas, até para numeros
  
 Para escrever o valor de uma variável utilizar o caractere especial $

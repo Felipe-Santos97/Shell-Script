@@ -2,12 +2,12 @@
 Repositório para passar alguns conceitos de shell 
 
 ## Oque é shell??
-Shell é o prompt de linha de comando padrão do Unix/Linux, resumindo é uma tela preta onde são digitados comandos (famoso terminal).
+Shell é o prompt de linha de comando (terminal) padrão do Unix/Linux, resumindo é uma tela preta onde são digitados comandos.
 
 É a ligação do usuário com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
 
 O shell padrão do Linux é o bash (Bourne again shell) no Mac também possui basta abrir o "terminal". Caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux 
-dentro de seu Windows (mas não tenho certeza se vai funcionar todos os comandos visto aqui)
+dentro de seu Windows (mas não tenho certeza se vai funcionar todos os comandos)
 
 
 ## Requisitos para fazer scripts
@@ -16,14 +16,14 @@ Para começar a fazer os scripts é preciso conhecer alguns dos comandos do bash
 ### alguns comandos básicos
 Comando | Descrição
 --------|------------
- cd | change directory - muda o diretório
- cd .. | cd 2 pontos - volta um diretório
- ls | list - lista o conteúdo do diretório corrente 
- pwd | print working directory - mostra o diretório corrente
- cat | concatenate - exibe um arquivo
- rm | remove - excui um arquivo/diretótio
- mkdir | make directory - cria um diretório
- cp | copy - copia arquivos
+ cd | muda o diretório (Change Directory)
+ cd .. | volta um diretório (cd 2 pontos)
+ ls | lista o conteúdo do diretório corrente (List) 
+ pwd | mostra o diretório corrente (Print Working Directory)
+ cat | exibe um arquivo ou mais (Concatenate)
+ rm | excui um arquivo/diretótio (Remove)
+ mkdir | cria um diretório (Make Directory)
+ cp | copia arquivos (Copy)
 
 ### exemplos:
 **cd** caminho-do-diretório
@@ -35,7 +35,7 @@ Comando | Descrição
 **mkdir** nova-pasta
 
 ## Opções 
-Os comandos tem as chamadas opções que podem ser passadas para alterar o uso de um programa, elas são usadas com o caractere **-**.
+Os comandos tem as chamadas opções que podem ser passadas para alterar o uso de um programa, elas são usadas com o caractere`- `.
 Cada comando tem suas próprias chaves basta ler o manual do comando para saber, mas existe algumas que são populares como:
 **-h** para ver a tela de ajuda, **-V** ver a versão, **-R** recursivisade, etc.
 
@@ -85,9 +85,9 @@ Tem alguns passos para criar um programa em shell são eles:
 ## Primeiro programa
 Vamos criar o nosso olá mundo em shell, tudo será feito na linha de comando.
 
-1. Criar o arquivo, comando:  **> olaMundo.sh**
+1. Criar o arquivo, comando: ` > olaMundo.sh`
  
-2. Dar a permissão de execução, comando: **chmod +x olaMundo.sh** 
+2. Dar a permissão de execução, comando: ` chmod +x olaMundo.sh` 
  
 3. Escolher um editor de texto para abrir o arquivo e digitar:
 

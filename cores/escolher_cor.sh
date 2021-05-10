@@ -1,11 +1,12 @@
 #!/bin/bash
 #
-# Programa pede ao usuário uma cor de letra e de fundo e exibe na tela uma frase
+# Programa pede ao usuário uma cor de letra e de fundo em seguida exibe na tela uma frase
 # Altere a variavel frase para mudar o texto
 
 frase="Programando em shell"
 
-lista="
+# Mostra as opções de cores
+echo "
   COR    |  LETRA  |  FUNDO | 
 
 preto    |    30   |   40   | 
@@ -18,8 +19,6 @@ ciano    |    36   |   46   |
 branco   |    37   |   47   |
 -----------------------------
     ESPECIAIS
-
-   NOME    | CÓDIGO | 
       
 negrito    |   1   |
 pisca      |   5   |
@@ -27,7 +26,6 @@ sublinhado |   4   |
 ----------------------------
 "
 
-echo "$lista"
 read -p "Escolha o primeiro numero: " primeiro 
 read -p "Escolha o segundo numero: " segundo
 
@@ -37,3 +35,4 @@ read -p "Escolha o segundo numero: " segundo
 
 # Saida
 echo -e "\n\033[$primeiro;${segundo}m$frase\033[m\n"
+

@@ -1,8 +1,8 @@
 #!/bin/bash
 # 
-# Programa serve de exemplo para o uso de variáveis visto neste capítulo
-# pede um email e senha em seguida mostra a hora atual
-
+# Pede um email e senha em seguida mostra a hora atual.
+# Não é feita nenhuma verificação de email ou senha, programa serve apenas de exemplo do uso de variáveis.
+# parametro -s do read serve para não mostrar os dados digitados na tela
 
 # Pega os dados do usuário
 read -p "Digite seu email: " email

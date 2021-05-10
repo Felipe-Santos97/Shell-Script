@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Programa serve para exibir uma frase ou palavra em algumas cores
+# Programa serve para exibir uma frase ou palavra em algumas cores. A frase é escolhida pelo usuário
 
 
 read -p "Digite uma frase ou palavra: " frase

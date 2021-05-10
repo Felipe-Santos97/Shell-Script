@@ -2,7 +2,7 @@
 #
 # Programa é conhecido pelo nome: algoritimo triângulo de Floyd.
 # Faz o uso de um loop dentro do outro, é pedido um numero para informar a quantidade de linhas. 
-# saída do programa:
+# Saída do programa:
 #
 # *
 # * *
@@ -22,10 +22,10 @@ read -p "Digite a quantidade de linhas: " linhas
 [ "$linhas" -gt 35 ] && exit 1
  
 
-# loop para mostrar o triangulo.
+# loop para mostrar o triangulo 
 for ((i=1; i <= $linhas; i++)); do
 
-  for((j=1; j <= $i; j++)); do
+  for ((j=1; j <= $i; j++)); do
     echo -n "* "
   done
 

@@ -16,9 +16,9 @@ Uma lista pode ser uma variável, arquivo, algum comando, sequências de numeros
 
 ## Sequência de valores
 ```
-for valor in php java python 'java script'
+for VALOR in php java python 'java script'
 do
-  echo "linguagem: $valor"
+  echo "linguagem: $VALOR"
 done
 ```
 
@@ -27,9 +27,9 @@ simples como foi em 'java script'.
 
 ## Sequência numérica
 ```
-for valor in 1 2 3 4 5 6 7 8 9 10
+for VALOR in 1 2 3 4 5 6 7 8 9 10
 do
-  echo "$valor"
+  echo "$VALOR"
 done
 ```
 

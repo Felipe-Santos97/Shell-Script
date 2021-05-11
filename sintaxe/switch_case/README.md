@@ -70,29 +70,29 @@ esac
  
 ### Veja um exemplo 
 ```
-parametro="--version"
+alimento="couve"
 
-case "$parametro" in 
+case "$alimento" in 
     
-  -h | --help)
-      echo "$parametro: exibe a ajuda" 
+  laranja | uva | abacate)
+      echo "$alimento é FRUTA" 
   ;;  
   
-  -V | --version)
-      echo "$parametro: exibe a versão" 
+  alface | couve | salsa)
+      echo "$alimento é VERDURA" 
   ;;
  
-  -i | --ignore-case)
-     echo "$parametro: letras maiúsculas e minúsculas são tratadas iguais" 
+  ervilha | cenoura | palmito)
+     echo "$alimento é LEGUMES" 
   ;;
 
   *) 
-   echo "parametro não definido" 
+   echo "alimento não correspondente" 
   ;;
    
 esac
 ```
-* A saída do programa vai ser (**--version: exibe a versão**) pois a variável possui o valor **--version** e caiu no bloco correspondente
-* Caso a variável tivesse o valor **-V** também iria executar o mesmo bloco de comandos
+* A saída do programa vai ser (**alface é VERDURA**) pois a variável testada possui o valor **alface** e caiu no bloco correspondente
+* Caso a variável tivesse o valor **salsa** também iria executar o mesmo bloco de comandos
 
   

@@ -61,3 +61,11 @@ Para chamar a função:
 * BANANA em **$2**, e assim por diante
 * Pode ter diversos parâmetros
 * O espaço separa os valores
+
+## Testar todos parâmetros
+ Na hora de chamar a função não tem um numero específico de parâmetros que vão ser passados.
+ Em uma situação uma função pode ser chamada com apenas 1 parâmetro em outra com 3 parâmetros, mas como saber quantos parâmetros foram passados?
+ Pode ser feito com um comando chamado **shift**, há um exemplo de programa neste capítulo que testa todos os parâmetros passados.
+
+Pesquise para entender melhor o uso do comando **shift**
+

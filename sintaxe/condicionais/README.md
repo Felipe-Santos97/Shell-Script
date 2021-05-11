@@ -37,7 +37,16 @@ Opção | Descrição
 -w    | tem permissão de escrita?
 -s    | arquivo tem conteudo?
 
-Como foi visto o comando **test** "testa" mais condições que as outras linguagens podendo testar até arquivos e diretórios.
+### operadores lógicos
+
+opção | Descrição
+------|----------
+-a    | E lógico (AND)
+-o    | OU lógico (OR)
+!     | NÃO lógico (NOT)
+ 
+
+* Como foi visto o comando **test** "testa" mais condições que as outras linguagens podendo testar até arquivos e diretórios.
 
 ## Sintaxe do if
 ```

@@ -3,7 +3,6 @@ Repositório para passar alguns conceitos de shell
 
 ## Oque é shell??
 Shell é o prompt de linha de comando (terminal) padrão do Unix/Linux, resumindo é uma tela preta onde são digitados comandos.
-
 É a ligação do usuário com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
 
 O shell padrão do Linux é o bash (Bourne again shell) no Mac também possui basta abrir o "terminal". Caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux 

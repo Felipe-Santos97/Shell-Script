@@ -8,14 +8,14 @@
 read -p "Digite a primeira nota: " nota1
 read -p "Digite a segunda nota: " nota2
 
-# Verifica se foi digitado algum valor válido
+# Foi digitado algum valor?
 [ "$nota1" -a "$nota2" ] || exit 1 
 
 # Calcula a média com o programa bc
 media=$(bc <<< "($nota1+$nota2)/2")
 
 # Verifica se a media esta dentro do permitido
-[ "$media" -le 10 ] || exit 1
+[ "$media" -le 10 -a "$media" -ge 0 ] || exit 1
 
 
 # verifica a situação do aluno 

@@ -70,7 +70,7 @@ esac
  
 ### Veja um exemplo 
 ```
-alimento="couve"
+alimento="alface"
 
 case "$alimento" in 
     

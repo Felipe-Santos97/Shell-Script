@@ -11,7 +11,7 @@ read -sp "Digite sua senha: " senha
 echo
 
 # Testa se foi digitado alguma coisa
-[ "$email" ] && [ "$senha" ] || exit 1
+[ "$email" -a "$senha" ] || exit 1
 
 # Pega a hora atual
 hora=$(date "+%H:%M")

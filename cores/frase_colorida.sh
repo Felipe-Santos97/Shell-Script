@@ -1,6 +1,12 @@
 #!/bin/bash
 #
-# Programa serve para exibir uma frase ou palavra em algumas cores. A frase é escolhida pelo usuário
+# frase_colorida.sh
+# Autor: Felipe Santos
+#
+# --------------------------------------------------------------------------------------------------------
+# Programa pede uma frase para o usúario digitar em seguida é exibido a frase nas cores possiveis
+# 
+# --------------------------------------------------------------------------------------------------------
 
 
 read -p "Digite uma frase ou palavra: " frase

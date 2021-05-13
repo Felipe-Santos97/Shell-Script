@@ -1,7 +1,12 @@
 #!/bin/bash
 #
+# media_notas.sh
+# Autor: Felipe Santos
+#
+# ------------------------------------------------------------------------------------
 # Algoritimo para medir a média de um aluno. Será informado somente 2 notas
 # A média para passar é 6.0
+# ------------------------------------------------------------------------------------
 
 
 # Pede as notas
@@ -34,5 +39,4 @@ echo "
 A média do aluno foi: $media
 Situação: $resultado
 -----------------------------------------"
-
 

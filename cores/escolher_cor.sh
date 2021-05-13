@@ -1,7 +1,14 @@
 #!/bin/bash
 #
-# Programa pede ao usuário uma cor de letra e de fundo em seguida exibe na tela uma frase
-# Altere a variavel frase para mudar o texto
+# escolher_cor.sh
+# Autor: Felipe Santos 
+#
+# -------------------------------------------------------------------------------------------------
+# Programa pede ao usuário escolher um codigo para a cor da letra e de fundo.
+# Em seguida exibe na tela uma frase, altere a variavel frase para mudar o texto
+# Ainda é possivel escolher os códigos especiais para poder piscar ou sublinhar
+# -------------------------------------------------------------------------------------------------
+
 
 frase="Programando em shell"
 

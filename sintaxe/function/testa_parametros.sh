@@ -1,5 +1,9 @@
 #!/bin/bash
 #
+# testa_parametros.sh
+# Autor: Felipe Santos
+#
+# -------------------------------------------------------------------------------------------------------------------------------
 # Programa verifica todos os parametros passados para uma função. Faz o uso do comando shift.
 # É feito um loop testando a variável $1 até ela não ter valor.
 # No primeiro loop esta variável vai conter o primeiro parâmetro passado para a função,
@@ -10,6 +14,7 @@
 # Variáveis especiais:
 # $* contem o valor de todos os parâmetros passados
 # $# contem o numero total de parâmetros 
+# -------------------------------------------------------------------------------------------------------------------------------
 
 
 

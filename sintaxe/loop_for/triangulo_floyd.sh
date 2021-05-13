@@ -1,5 +1,9 @@
 #!/bin/bash
 #
+# triangulo_floyd.sh
+# Autor: Felipe Santos
+#
+# ---------------------------------------------------------------------------------------------------------
 # Programa é conhecido pelo nome: algoritimo triângulo de Floyd.
 # Faz o uso de um loop dentro do outro, é pedido um numero para informar a quantidade de linhas. 
 # Saída do programa:
@@ -10,6 +14,7 @@
 # * * * *
 # * * * * * 
 # * * * * * * 
+# ---------------------------------------------------------------------------------------------------------
 
 
 read -p "Digite a quantidade de linhas: " linhas

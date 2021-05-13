@@ -1,8 +1,12 @@
 #!/bin/bash
 #
+# decremento.sh
+# Autor: Felipe Santos
+#
+# ------------------------------------------------------------------------------------------------------
 # Programa pede um numero como entrada e diminui até 1
 # Serve de exemplo para o comando while.
-# Foque no comando while, alguns comandos foram feitos para tentar não quebrar o programa somente.
+# ------------------------------------------------------------------------------------------------------
 
 
 read -p "Digite um numero: " numero
@@ -18,5 +22,5 @@ while [ "$numero" -ge 1 ]; do
   echo -n "$numero "
   let numero--
 done
-
 echo
+

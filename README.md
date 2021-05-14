@@ -1,12 +1,30 @@
-# Shell-Script
-Repositório para passar alguns conceitos de shell 
+# Shell-Script ![GitHub top language](https://img.shields.io/github/languages/top/Felipe-Santos97/Shell-Script)
+
+## Intro
+
+* Repositório para passar alguns conceitos de shell 
+
+* Sistema operacional utilizado: **Debian GNU/Linux** 
+
+* Shell utilizado: **bash**
+
+ Os programas não contém comandos maliciosos como `rm -rf /` ou outros, caso duvide basta não executar os programas como usuário root.
+Se você utiliza algum sistema diferente de GNU/Linux pode ser que alguns dos comandos não funcione, se for o caso abra uma **issue** ou pesquise algum correspondente.
+
+Cada diretório possui um **README.md** com a teoria do assunto, foi feito para ler na página do github pois está no formato **markdown**.
+
+### Referencias
+* Livro: [Descobrindo o Linux](https://novatec.com.br/livros/linux-3ed/) (João Eriberto Mota Filho)
+* Livro: [Shell Script Profissional](https://www.shellscript.com.br/) (Aurelio Marinho Jargas)
+* [ Curso Shell Scripting ](https://www.youtube.com/watch?v=EOLPUc6oo-w&list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs) (Canal Bóson Treinamentos)
+* [Papai do Shell](https://www.youtube.com/channel/UCpIYXOF825aX8qq77xnTCLQ) (Julio Neves)
 
 ## Oque é shell??
 Shell é o prompt de linha de comando (terminal) padrão do Unix/Linux, resumindo é uma tela preta onde são digitados comandos.
 É a ligação do usuário com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
 
 O shell padrão do Linux é o bash (Bourne again shell) no Mac também possui basta abrir o "terminal". Caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux 
-dentro de seu Windows (mas não tenho certeza se vai funcionar todos os comandos)
+dentro de seu Windows.
 
 
 ## Requisitos para fazer scripts
@@ -114,3 +132,4 @@ também comentar certas linhas para deixar claro oque está acontecendo. Mas cui
 
 
 ## Isso foi uma pequena introdução ao bash
+

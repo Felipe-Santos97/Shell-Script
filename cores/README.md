@@ -1,7 +1,7 @@
 # Cores no shell
 
 Para aplicar cores no shell é preciso conhecer antes os **caracteres de controle**, que servem para posicionar e desenhar um texto na tela.
-É possivel fazer diversas coisas com os caracteres de controle, veremos como alterar a cor da letra e de fundo.          
+É possível fazer diversas coisas com os caracteres de controle, veremos como alterar a cor da letra e de fundo.          
 
 Caracteres de controle são sequências de caracteres que são "escapados" para a tela, isso significa que eles não vão ser mostrados mas terão uma função
 expecífica. Importante saber que o caractere **esc** faz esse escape. Basta usar os comandos **echo** ou o **printf** para enviar as sequências de escape

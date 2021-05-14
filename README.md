@@ -19,7 +19,23 @@ Cada diretório possui um **README.md** com a teoria do assunto, foi feito para 
 * [ Curso Shell Scripting ](https://www.youtube.com/watch?v=EOLPUc6oo-w&list=PLucm8g_ezqNrYgjXC8_CgbvHbvI7dDfhs) (Canal Bóson Treinamentos)
 * [Papai do Shell](https://www.youtube.com/channel/UCpIYXOF825aX8qq77xnTCLQ) (Julio Neves)
 
-## Oque é shell??
+## Sumário
+* Introdução ao Shell
+* [Sintaxe](https://github.com/Felipe-Santos97/Shell-Script/tree/main/sintaxe)
+  * [Variáveis](https://github.com/Felipe-Santos97/Shell-Script/tree/main/sintaxe/variaveis)
+  * [Condicionais](https://github.com/Felipe-Santos97/Shell-Script/tree/main/sintaxe/condicionais)
+  * [Loop while](https://github.com/Felipe-Santos97/Shell-Script/tree/main/sintaxe/loop_while)
+  * [Loop for](https://github.com/Felipe-Santos97/Shell-Script/tree/main/sintaxe/loop_for)
+  * [Switch case](https://github.com/Felipe-Santos97/Shell-Script/tree/main/sintaxe/switch_case)
+  * [Function](https://github.com/Felipe-Santos97/Shell-Script/tree/main/sintaxe/function)
+* [Cores](https://github.com/Felipe-Santos97/Shell-Script/tree/main/cores)
+* [Programas](https://github.com/Felipe-Santos97/Shell-Script/tree/main/programas)  
+  
+  
+***
+## Introdução ao Shell  
+
+### Oque é shell?
 Shell é o prompt de linha de comando (terminal) padrão do Unix/Linux, resumindo é uma tela preta onde são digitados comandos.
 É a ligação do usuário com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
 
@@ -27,7 +43,7 @@ O shell padrão do Linux é o bash (Bourne again shell) no Mac também possui ba
 dentro de seu Windows.
 
 
-## Requisitos para fazer scripts
+### Requisitos para fazer scripts
 Para começar a fazer os scripts é preciso conhecer alguns dos comandos do bash, começe estudando esses comandos:
 
 ### alguns comandos básicos
@@ -129,7 +145,3 @@ Para comentar em shell script basta colocar o caractere # e tudo que vier depois
 
 É aconselhável colocar nos programas um cabeçalho inicial com uma explicação geral do seu funcionamento e alguns exemplos de uso,
 também comentar certas linhas para deixar claro oque está acontecendo. Mas cuidado para não comentar o óbvio, comentar demais pode ser que não seja uma boa.  
-
-
-## Isso foi uma pequena introdução ao bash
-

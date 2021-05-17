@@ -5,7 +5,7 @@
 # 
 # -------------------------------------------------------------------------------------------------------------------------
 # Serve para criar um arquivo em HTML 5 e abrir com visual code, o nome do arquivo é passado como parametro.
-# É colocado todas tags basicas de html dentro do arquivo criado. Altere o editor de texto se preferir (padrão VS CODE)
+# É colocado todas tags basicas de HTML dentro do arquivo criado. Altere o editor de texto se preferir (padrão VS CODE)
 # Uso:
 # mkhtml arquivo.html
 # -------------------------------------------------------------------------------------------------------------------------

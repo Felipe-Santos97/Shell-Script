@@ -15,7 +15,7 @@
 # Pega o nome sendo o primeiro parametro
 ARQUIVO="$1"
 
-if [ -z $ARQUIVO ]; then
+if [ -z "$ARQUIVO" ]; then
    echo "Digite o nome do arquivo !"
    exit 1
 fi

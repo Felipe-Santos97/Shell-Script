@@ -44,7 +44,7 @@ dentro de seu Windows.
 
 
 ### Requisitos para fazer scripts
-Para começar a fazer os scripts é preciso conhecer alguns dos comandos do bash, começe estudando esses comandos:
+Para começar a fazer os scripts é preciso conhecer alguns dos comandos do bash, comece estudando esses comandos:
 
 ### alguns comandos básicos
 Comando | Descrição
@@ -54,7 +54,7 @@ Comando | Descrição
  ls | lista o conteúdo do diretório corrente (List) 
  pwd | mostra o diretório corrente (Print Working Directory)
  cat | exibe um arquivo ou mais (Concatenate)
- rm | excui um arquivo/diretótio (Remove)
+ rm | exclui um arquivo/diretório (Remove)
  mkdir | cria um diretório (Make Directory)
  cp | copia arquivos (Copy)
 
@@ -68,9 +68,9 @@ Comando | Descrição
 **mkdir** nova-pasta
 
 ## Opções 
-Os comandos tem as chamadas opções (ou chaves) que podem ser passadas para alterar o seu uso, elas são usadas com o caractere `- `.
-Cada comando tem suas próprias opções basta ler o manual do comando para saber, mas existe algumas que são populares como:
-**-h** para ver a tela de ajuda, **-V** ver a versão, **-R** recursivisade, etc.
+Os comandos têm as chamadas opções (ou chaves) que podem ser passadas para alterar o seu uso, elas são usadas com o caractere `- `.
+Cada comando tem suas próprias opções basta ler o manual do comando para saber, mas existem algumas que são populares como:
+**-h** para ver a tela de ajuda, **-V** ver a versão, **-R** recursividade, etc.
 
 #### Exemplos:
 
@@ -141,7 +141,7 @@ Esse foi o primeiro programa em shell, lembre-se de colocar na primeira linha **
 ## Comentários 
 Para comentar em shell script basta colocar o caractere # e tudo que vier depois não será interpretado. 
 
-**# Isto é um comentario**
+**# Isto é um comentário**
 
 É aconselhável colocar nos programas um cabeçalho inicial com uma explicação geral do seu funcionamento e alguns exemplos de uso,
 também comentar certas linhas para deixar claro oque está acontecendo. Mas cuidado para não comentar o óbvio, comentar demais pode ser que não seja uma boa.  

@@ -14,7 +14,7 @@ Perceba o uso do colchetes que substitui a palavra test.
 
 ## Modificar a condição
 
-Se não for modificada a condição resultará no clássico loop infinito, vejamos como somar 1 em uma variavel
+Se não for modificada a condição resultará no clássico loop infinito, vejamos como somar 1 em uma variável
 
 * `i=$((i+1))`
 * `let i++`

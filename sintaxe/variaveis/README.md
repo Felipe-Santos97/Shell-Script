@@ -39,7 +39,7 @@ Com isso é guardado na variável NOME
 
 
 ## Armazenar comandos
-Ainda é possivel armazenar a saída de um comando em uma variável, sintaxe:
+Ainda é possível armazenar a saída de um comando em uma variável, sintaxe:
 
 **variavel=$(comando)**
 ```

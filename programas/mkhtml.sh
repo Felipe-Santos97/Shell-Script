@@ -26,13 +26,13 @@ HTML="<!DOCTYPE html>
 # Pega o arquivo que será criado
 ARQUIVO="$1"
 
-
 if [ -z "$ARQUIVO" ]; then
   echo "Digite o nome do arquivo !"
   exit 1 
 fi
 
-echo -e "\033[1m Arquivo esta sendo criado: $ARQUIVO (Ctrl + c para cancelar)\033[m"; sleep 2
+echo -e "\033[1m Arquivo esta sendo criado: $ARQUIVO (Ctrl + c para cancelar)\033[m"
+sleep 3
 echo "$HTML" > "$ARQUIVO"
 code "$ARQUIVO"
 

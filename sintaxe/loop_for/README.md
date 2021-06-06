@@ -22,7 +22,7 @@ do
 done
 ```
 
-Será executado um loop para cada valor depois do **in** e então com uma variável é possivel manipular esses valores. Caso uma palavra tenha espaçamento é preciso usar aspas 
+Será executado um loop para cada valor depois do **in** e então com uma variável é possível manipular esses valores. Caso uma palavra tenha espaçamento é preciso usar aspas 
 simples como foi em 'java script'.
 
 ## Sequência numérica

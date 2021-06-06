@@ -19,7 +19,7 @@ echo
 [ "$email" -a "$senha" ] || exit 1
 
 # Pega a hora atual
-hora=$(date "+%H:%M")
+hora=$(date "+%T")
 
-echo -e "\n$email logado as $hora horas."
+echo -e "\n \033[1m$email logado as $hora horas.\033[m"
 

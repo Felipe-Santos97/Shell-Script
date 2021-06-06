@@ -7,9 +7,9 @@ Vai ser verdadeira quando a saída do comando for igual a zero que significa sem
  
 
 Para usar o **if** como em outras linguagens de programação é preciso usar o comando **test**.
-Com ele é possivel comparar strings, verificar se a string é nula, comparar numeros com outros numeros, etc.
+Com ele é possível comparar strings, verificar se a string é nula, comparar numeros com outros numeros, etc.
 
-opções do comando **test**:
+Opções do comando **test**:
 
 ### testes em numeros 
 Opção | Descrição
@@ -35,7 +35,7 @@ Opção | Descrição
 -f    | é um arquivo?
 -r    | tem permissão de leitura?
 -w    | tem permissão de escrita?
--s    | arquivo tem conteudo?
+-s    | arquivo tem conteúdo?
 
 ### operadores lógicos
 

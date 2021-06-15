@@ -1,26 +1,32 @@
 #!/bin/bash
 # 
-# mkhtml - Cria um arquivo HTML com as tags necessárias
+# mkhtml 
 # Autor: Felipe Santos <felipe.pier7@gmail.com>
 # 
 # -------------------------------------------------------------------------------------------------------------------------
-# Serve para criar um arquivo em HTML 5 e abrir com visual code, o nome do arquivo é passado como parametro.
-# É colocado todas tags basicas de HTML dentro do arquivo criado. Altere o editor de texto se preferir (padrão VS CODE)
+# Serve para criar um arquivo em HTML 5 e abrir com um editor de texto(padrão VS CODE)
+# É colocado todas tags basicas de HTML dentro do arquivo criado.
+# O arquivo será criado no diretório corrente e o editor irá abrir 
 # Uso:
 # mkhtml arquivo.html
 # -------------------------------------------------------------------------------------------------------------------------
 
+# ================= CONFIGURAÇÃO =================
+# Altere o editor de texto (se preferir)
+EDITOR="code"
+# ================================================
+
 
 # Pega o esqueleto HTML
 HTML="<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+<html lang=pt-br>
+  <head>
+    <meta charset=UTF-8>
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
 </html>"
 
 # Pega o arquivo que será criado
@@ -34,5 +40,5 @@ fi
 echo -e "\033[1m Arquivo esta sendo criado: $ARQUIVO (Ctrl + c para cancelar)\033[m"
 sleep 3
 echo "$HTML" > "$ARQUIVO"
-code "$ARQUIVO"
+"$EDITOR" "$ARQUIVO" 
 

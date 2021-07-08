@@ -31,7 +31,7 @@ fi
 
 # Cria o script
 echo -e "\033[1m Arquivo esta sendo criado: $ARQUIVO  (Ctrl + c para cancelar) \033[m"
-sleep 3
+sleep 2.5s
 echo "#!/bin/bash" > "$ARQUIVO"
 chmod +x "$ARQUIVO"
 "$EDITOR" "$ARQUIVO"

@@ -8,8 +8,7 @@
 
 * Shell utilizado: **bash**
 
- Os programas não contém comandos maliciosos como `rm -rf /` ou outros, caso duvide basta não executar os programas como usuário root (administrador).
-Se você utiliza algum sistema diferente de GNU/Linux pode ser que alguns dos comandos não funcione, se for o caso abra uma **issue** ou pesquise algum correspondente.
+ Os programas não contém comandos maliciosos como `rm -rf /` ou outros, se você utiliza algum sistema diferente de GNU/Linux pode ser que alguns dos comandos não funcione se for o caso abra uma **issue** ou pesquise algum comando correspondente.
 
 Cada diretório possui um **README.md** com a teoria do assunto, foi feito para ler na página do github pois está no formato **markdown**.
 
@@ -36,10 +35,12 @@ Cada diretório possui um **README.md** com a teoria do assunto, foi feito para 
 ## Introdução ao Shell  
 
 ### Oque é shell?
-Shell é o prompt de linha de comando (terminal) padrão do Unix/Linux, resumindo é uma tela preta onde são digitados comandos.
-É a ligação do usuário com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell. 
+Shell é uma interface de linha de comando que permite acessar recursos de um sistema operacional.
+É a ligação do usuário com o kernel, tudo oque é feito no ambiente gráfico pode ser feito com o shell 
+(podemos fazer mais coisas no shell em relação ao ambiente gráfico). 
 
-O shell padrão do Linux é o bash (Bourne again shell) no Mac também possui basta abrir o "terminal". Caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux 
+Temos diversos shells, o padrão do Linux é o bash (Bourne Again SHell) no Mac também possui basta abrir o "terminal".
+Caso você use um Windows baixe o "cygwin" ele traz um ambiente Linux (unix like)
 dentro de seu Windows.
 
 
@@ -59,7 +60,7 @@ Comando | Descrição
  cp | copia arquivos (Copy)
 
 ### exemplos:
-**cd** caminho-do-diretório
+**cd** /caminho/do/diretório
 
 **cat** arquivo 
 
@@ -111,7 +112,7 @@ Não é preciso se preocupar com os tipos de variáveis, ponteiros, compilação
 Tem alguns passos para criar um programa em shell são eles:
 
 1. Criar um arquivo com a extensão ".sh". Exemplo: **teste.sh**
-2. Dar a permissão de execução com o comando: **chmod +x nome-do-arquivo** com isso você vai poder executar o arquivo
+2. Dar a permissão de execução com o comando: **chmod +x nome-do-arquivo** (com isso você vai poder executar o arquivo)
 3. Colocar na primeira linha do arquivo o terminal que vai ser usado no caso é o bash, então: **#!/bin/bash** na primeira linha
 4. Para executar o programa basta colocar **./** se estiver na pasta do arquivo **./teste.sh** ou o caminho completo até chegar no arquivo **/home/felipe/teste.sh**
 

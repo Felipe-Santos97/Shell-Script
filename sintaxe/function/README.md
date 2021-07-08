@@ -27,7 +27,7 @@ nome_da_função() {
 ### Exemplo
 ```
 mostrar_horas(){
-  date "+%H:%M:%S"
+  date "+%T"
 }
 ```
 Para chamar a função digitar: `mostrar_horas`
@@ -63,7 +63,7 @@ Para chamar a função:
 * O espaço separa os valores
 
 ## Testar todos parâmetros
- Na hora de chamar a função não tem um numero específico de parâmetros que vão ser passados.
+ Em alguns casos na hora de chamar a função não tem um numero específico de parâmetros que vão ser passados.
  Em uma situação uma função pode ser chamada com apenas 1 parâmetro em outra com 3 parâmetros, mas como saber quantos parâmetros foram passados?
  Pode ser feito com um comando chamado **shift**, há um exemplo de programa neste capítulo que testa todos os parâmetros passados.
 

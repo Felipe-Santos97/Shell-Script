@@ -10,7 +10,7 @@
 
  Os programas não contém comandos maliciosos como `rm -rf /` ou outros, se você utiliza algum sistema diferente de GNU/Linux pode ser que alguns dos comandos não funcione se for o caso abra uma **issue** ou pesquise algum comando correspondente.
 
-Cada diretório possui um **README.md** com a teoria do assunto, foi feito para ler na página do github pois está no formato **markdown**.
+Cada diretório possui um arquivo **.md** com a teoria do assunto, foi feito para ler na página do github pois está no formato **markdown**.
 
 ### Referencias
 * Livro: [Descobrindo o Linux](https://novatec.com.br/livros/linux-3ed/) (João Eriberto Mota Filho)

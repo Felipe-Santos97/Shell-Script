@@ -19,9 +19,9 @@ EDITOR="code"
 
 # Pega o esqueleto HTML
 HTML="<!DOCTYPE html>
-<html lang=pt-br>
+<html lang=\"pt-br\">
   <head>
-    <meta charset=UTF-8>
+    <meta charset=\"UTF-8\">
     <title>Document</title>
   </head>
   <body>
